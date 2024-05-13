@@ -62,6 +62,9 @@ dependencies:
   jest-watch-typeahead:
     specifier: ^1.0.0
     version: 1.1.0(jest@27.5.1)
+  jotai:
+    specifier: ^2.8.0
+    version: 2.8.0(@types/react@18.3.1)(react@18.3.1)
   prompts:
     specifier: ^2.4.2
     version: 2.4.2
@@ -1999,7 +2002,7 @@ packages:
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
-    resolution: {integrity: sha1-p36nQvqyV3UUVDTrHSMoz1ATrDM=, tarball: https://npm-registry.yy.com/@pkgjs/parseargs/download/@pkgjs/parseargs-0.11.0.tgz}
+    resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
     requiresBuild: true
     dev: false
@@ -2098,7 +2101,7 @@ packages:
     dev: true
 
   /@rspack/binding-darwin-arm64@0.6.5:
-    resolution: {integrity: sha1-zOSlSzriMn4Zmh5PC/EFi/LQSUo=, tarball: https://npm-registry.yy.com/@rspack/binding-darwin-arm64/download/@rspack/binding-darwin-arm64-0.6.5.tgz}
+    resolution: {integrity: sha512-5Zbs3buzF80MZoWnnpm/ZqQ2ZLKWjmmy94gDMeJhG39lKcpK2J2NyDXVis2ZSg7uUvKyJ662BEgIE1AnTWjnYg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
@@ -2106,7 +2109,7 @@ packages:
     optional: true
 
   /@rspack/binding-darwin-x64@0.6.5:
-    resolution: {integrity: sha1-n408ptKOB4z1Nl0Qeeeer+wS1V4=, tarball: https://npm-registry.yy.com/@rspack/binding-darwin-x64/download/@rspack/binding-darwin-x64-0.6.5.tgz}
+    resolution: {integrity: sha512-oA1R0OF8r7y8+oLynnZC9EgysLoOBuu1yYG90gHmrkdzRjjmYe4auNhuSLLqF+WOqXw/zGSujiUbnVMjLEWIBg==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
@@ -2114,7 +2117,7 @@ packages:
     optional: true
 
   /@rspack/binding-linux-arm64-gnu@0.6.5:
-    resolution: {integrity: sha1-eGkYRChwG1DVSXGX4HkWpiDDte4=, tarball: https://npm-registry.yy.com/@rspack/binding-linux-arm64-gnu/download/@rspack/binding-linux-arm64-gnu-0.6.5.tgz}
+    resolution: {integrity: sha512-xK2Ji9yCJSZE5HSRBS7R67HPahYd0WR16NefycrkmIEDR28B2T5CnvbqyNivnu7Coy1haHWisgfTV/NbjLd5fA==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
@@ -2123,7 +2126,7 @@ packages:
     optional: true
 
   /@rspack/binding-linux-arm64-musl@0.6.5:
-    resolution: {integrity: sha1-is1HEf8/ArXdy/oVY8lTQJcWhDk=, tarball: https://npm-registry.yy.com/@rspack/binding-linux-arm64-musl/download/@rspack/binding-linux-arm64-musl-0.6.5.tgz}
+    resolution: {integrity: sha512-nPDUf6TkzJWxqi6gQQz+Ypd2BPDiufh0gd0yFExIZyguE93amVbzJEfKeCQdvHZL5W/9XaYJoDKSOuCwMdLhiQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
@@ -2132,7 +2135,7 @@ packages:
     optional: true
 
   /@rspack/binding-linux-x64-gnu@0.6.5:
-    resolution: {integrity: sha1-G4RFoyYRx4ipiLo+6GagZOrMfyI=, tarball: https://npm-registry.yy.com/@rspack/binding-linux-x64-gnu/download/@rspack/binding-linux-x64-gnu-0.6.5.tgz}
+    resolution: {integrity: sha512-KT4GBPra7ge5oHSblfM74oRgW10MKdKhyJGEKFWqRezzul8i9SHElFzcE/w6qoOOLMgYPoVc/nybRqsJp9koZg==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
@@ -2141,7 +2144,7 @@ packages:
     optional: true
 
   /@rspack/binding-linux-x64-musl@0.6.5:
-    resolution: {integrity: sha1-CIdHVkwnGCW8ENuok8510iKMOtk=, tarball: https://npm-registry.yy.com/@rspack/binding-linux-x64-musl/download/@rspack/binding-linux-x64-musl-0.6.5.tgz}
+    resolution: {integrity: sha512-VnIzpFjzT4vkfUKPqyH4BiHJ6AMqtoeu7tychga2HpSudqCG8no4eIH2qRs9anGeuRkwb9x3uBC/1AIIiWSMsQ==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
@@ -2150,7 +2153,7 @@ packages:
     optional: true
 
   /@rspack/binding-win32-arm64-msvc@0.6.5:
-    resolution: {integrity: sha1-pCl+liuzdenADFMfuj4ZS9aFxOg=, tarball: https://npm-registry.yy.com/@rspack/binding-win32-arm64-msvc/download/@rspack/binding-win32-arm64-msvc-0.6.5.tgz}
+    resolution: {integrity: sha512-V44hlcK7htG1pA/fHCc1XDGmItu7v8qQObssl/yGAn4+ZlvP6/pxPy8y5ZVwnR3NXTRzPezMvbnKGb4GxBphlw==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
@@ -2158,7 +2161,7 @@ packages:
     optional: true
 
   /@rspack/binding-win32-ia32-msvc@0.6.5:
-    resolution: {integrity: sha1-8e0TNB0yf3FpW4xErdrKKqxfO7Y=, tarball: https://npm-registry.yy.com/@rspack/binding-win32-ia32-msvc/download/@rspack/binding-win32-ia32-msvc-0.6.5.tgz}
+    resolution: {integrity: sha512-M4xrJDx5EcAtZ02R9Y4yJB5KVCUdQIbAF/1gDGrXZ5PQUujaNzsIdISUvNfxpfkqe0Shj6SKOTqWm8yte3ecrQ==}
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
@@ -2166,7 +2169,7 @@ packages:
     optional: true
 
   /@rspack/binding-win32-x64-msvc@0.6.5:
-    resolution: {integrity: sha1-n5WxO+JU5vday/36aonXRNjhNx8=, tarball: https://npm-registry.yy.com/@rspack/binding-win32-x64-msvc/download/@rspack/binding-win32-x64-msvc-0.6.5.tgz}
+    resolution: {integrity: sha512-aFcBygJsClx0FozVo7zMp9OUte7MlgyBpQGnS2MZgd0kSnuZTyaUcdRiWKehP5lrPPij/ZWNJbiz5O6VNzpg3w==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -2395,7 +2398,7 @@ packages:
     dev: false
 
   /@types/eslint-scope@3.7.7:
-    resolution: {integrity: sha1-MQi9XxiwzbJ3yGez3UScntcHmsU=, tarball: https://npm-registry.yy.com/@types/eslint-scope/download/@types/eslint-scope-3.7.7.tgz}
+    resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
     dependencies:
       '@types/eslint': 8.56.10
       '@types/estree': 1.0.5
@@ -2661,26 +2664,26 @@ packages:
     dev: false
 
   /@webassemblyjs/ast@1.12.1:
-    resolution: {integrity: sha1-uxag6LGRT5efRYZMI4Gcw+Pw1Ls=, tarball: https://npm-registry.yy.com/@webassemblyjs/ast/download/@webassemblyjs/ast-1.12.1.tgz}
+    resolution: {integrity: sha512-EKfMUOPRRUTy5UII4qJDGPpqfwjOmZ5jeGFwid9mnoqIFK+e0vqoi1qH56JpmZSzEL53jKnNzScdmftJyG5xWg==}
     dependencies:
       '@webassemblyjs/helper-numbers': 1.11.6
       '@webassemblyjs/helper-wasm-bytecode': 1.11.6
     dev: false
 
   /@webassemblyjs/floating-point-hex-parser@1.11.6:
-    resolution: {integrity: sha1-2svLla/xNcgmD3f6O0xf6mAKZDE=, tarball: https://npm-registry.yy.com/@webassemblyjs/floating-point-hex-parser/download/@webassemblyjs/floating-point-hex-parser-1.11.6.tgz}
+    resolution: {integrity: sha512-ejAj9hfRJ2XMsNHk/v6Fu2dGS+i4UaXBXGemOfQ/JfQ6mdQg/WXtwleQRLLS4OvfDhv8rYnVwH27YJLMyYsxhw==}
     dev: false
 
   /@webassemblyjs/helper-api-error@1.11.6:
-    resolution: {integrity: sha1-YTL2jErNWdzRQcRLGMvrvZ8vp2g=, tarball: https://npm-registry.yy.com/@webassemblyjs/helper-api-error/download/@webassemblyjs/helper-api-error-1.11.6.tgz}
+    resolution: {integrity: sha512-o0YkoP4pVu4rN8aTJgAyj9hC2Sv5UlkzCHhxqWj8butaLvnpdc2jOwh4ewE6CX0txSfLn/UYaV/pheS2Txg//Q==}
     dev: false
 
   /@webassemblyjs/helper-buffer@1.12.1:
-    resolution: {integrity: sha1-bfINJy6lQ5vyCrNJK3+3Dpv8s/Y=, tarball: https://npm-registry.yy.com/@webassemblyjs/helper-buffer/download/@webassemblyjs/helper-buffer-1.12.1.tgz}
+    resolution: {integrity: sha512-nzJwQw99DNDKr9BVCOZcLuJJUlqkJh+kVzVl6Fmq/tI5ZtEyWT1KZMyOXltXLZJmDtvLCDgwsyrkohEtopTXCw==}
     dev: false
 
   /@webassemblyjs/helper-numbers@1.11.6:
-    resolution: {integrity: sha1-y85efgwb0yz0kFrkRO9kzqkZ8bU=, tarball: https://npm-registry.yy.com/@webassemblyjs/helper-numbers/download/@webassemblyjs/helper-numbers-1.11.6.tgz}
+    resolution: {integrity: sha512-vUIhZ8LZoIWHBohiEObxVm6hwP034jwmc9kuq5GdHZH0wiLVLIPcMCdpJzG4C11cHoQ25TFIQj9kaVADVX7N3g==}
     dependencies:
       '@webassemblyjs/floating-point-hex-parser': 1.11.6
       '@webassemblyjs/helper-api-error': 1.11.6
@@ -2688,11 +2691,11 @@ packages:
     dev: false
 
   /@webassemblyjs/helper-wasm-bytecode@1.11.6:
-    resolution: {integrity: sha1-uy69s7g6om2bqtTEbUMVKDrNUek=, tarball: https://npm-registry.yy.com/@webassemblyjs/helper-wasm-bytecode/download/@webassemblyjs/helper-wasm-bytecode-1.11.6.tgz}
+    resolution: {integrity: sha512-sFFHKwcmBprO9e7Icf0+gddyWYDViL8bpPjJJl0WHxCdETktXdmtWLGVzoHbqUcY4Be1LkNfwTmXOJUFZYSJdA==}
     dev: false
 
   /@webassemblyjs/helper-wasm-section@1.12.1:
-    resolution: {integrity: sha1-PaYjIzrhpgQJtQmlKt6bwio3978=, tarball: https://npm-registry.yy.com/@webassemblyjs/helper-wasm-section/download/@webassemblyjs/helper-wasm-section-1.12.1.tgz}
+    resolution: {integrity: sha512-Jif4vfB6FJlUlSbgEMHUyk1j234GTNG9dBJ4XJdOySoj518Xj0oGsNi59cUQF4RRMS9ouBUxDDdyBVfPTypa5g==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/helper-buffer': 1.12.1
@@ -2701,23 +2704,23 @@ packages:
     dev: false
 
   /@webassemblyjs/ieee754@1.11.6:
-    resolution: {integrity: sha1-u2ZckdCxT//OsOOCmMMprwQ8bjo=, tarball: https://npm-registry.yy.com/@webassemblyjs/ieee754/download/@webassemblyjs/ieee754-1.11.6.tgz}
+    resolution: {integrity: sha512-LM4p2csPNvbij6U1f19v6WR56QZ8JcHg3QIJTlSwzFcmx6WSORicYj6I63f9yU1kEUtrpG+kjkiIAkevHpDXrg==}
     dependencies:
       '@xtuc/ieee754': 1.2.0
     dev: false
 
   /@webassemblyjs/leb128@1.11.6:
-    resolution: {integrity: sha1-cOYOXoL5rIERi8JTgaCyg4kyQNc=, tarball: https://npm-registry.yy.com/@webassemblyjs/leb128/download/@webassemblyjs/leb128-1.11.6.tgz}
+    resolution: {integrity: sha512-m7a0FhE67DQXgouf1tbN5XQcdWoNgaAuoULHIfGFIEVKA6tu/edls6XnIlkmS6FrXAquJRPni3ZZKjw6FSPjPQ==}
     dependencies:
       '@xtuc/long': 4.2.2
     dev: false
 
   /@webassemblyjs/utf8@1.11.6:
-    resolution: {integrity: sha1-kPi8NMVhWV/hVmA75yU8280Pq1o=, tarball: https://npm-registry.yy.com/@webassemblyjs/utf8/download/@webassemblyjs/utf8-1.11.6.tgz}
+    resolution: {integrity: sha512-vtXf2wTQ3+up9Zsg8sa2yWiQpzSsMyXj0qViVP6xKGCUT8p8YJ6HqI7l5eCnWx1T/FYdsv07HQs2wTFbbof/RA==}
     dev: false
 
   /@webassemblyjs/wasm-edit@1.12.1:
-    resolution: {integrity: sha1-n58/9SoUyYCTm+DvnV3568Z4rjs=, tarball: https://npm-registry.yy.com/@webassemblyjs/wasm-edit/download/@webassemblyjs/wasm-edit-1.12.1.tgz}
+    resolution: {integrity: sha512-1DuwbVvADvS5mGnXbE+c9NfA8QRcZ6iKquqjjmR10k6o+zzsRVesil54DKexiowcFCPdr/Q0qaMgB01+SQ1u6g==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/helper-buffer': 1.12.1
@@ -2730,7 +2733,7 @@ packages:
     dev: false
 
   /@webassemblyjs/wasm-gen@1.12.1:
-    resolution: {integrity: sha1-plIGAdobVwBEgnNmanGtCkXXhUc=, tarball: https://npm-registry.yy.com/@webassemblyjs/wasm-gen/download/@webassemblyjs/wasm-gen-1.12.1.tgz}
+    resolution: {integrity: sha512-TDq4Ojh9fcohAw6OIMXqiIcTq5KUXTGRkVxbSo1hQnSy6lAM5GSdfwWeSxpAo0YzgsgF182E/U0mDNhuA0tW7w==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/helper-wasm-bytecode': 1.11.6
@@ -2740,7 +2743,7 @@ packages:
     dev: false
 
   /@webassemblyjs/wasm-opt@1.12.1:
-    resolution: {integrity: sha1-nm6BR138+2LatXSsLdo4ImwjK8U=, tarball: https://npm-registry.yy.com/@webassemblyjs/wasm-opt/download/@webassemblyjs/wasm-opt-1.12.1.tgz}
+    resolution: {integrity: sha512-Jg99j/2gG2iaz3hijw857AVYekZe2SAskcqlWIZXjji5WStnOpVoat3gQfT/Q5tb2djnCjBtMocY/Su1GfxPBg==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/helper-buffer': 1.12.1
@@ -2749,7 +2752,7 @@ packages:
     dev: false
 
   /@webassemblyjs/wasm-parser@1.12.1:
-    resolution: {integrity: sha1-xHrLkObwgzkeP6YdETZQ7qHpWTc=, tarball: https://npm-registry.yy.com/@webassemblyjs/wasm-parser/download/@webassemblyjs/wasm-parser-1.12.1.tgz}
+    resolution: {integrity: sha512-xikIi7c2FHXysxXe3COrVUPSheuBtpcfhbpFj4gmu7KRLYOzANztwUU0IbsqvMqzuNK2+glRGWCEqZo1WCLyAQ==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/helper-api-error': 1.11.6
@@ -2760,18 +2763,18 @@ packages:
     dev: false
 
   /@webassemblyjs/wast-printer@1.12.1:
-    resolution: {integrity: sha1-vOz2YdfRq9r5idg0Gkgz4z4rMaw=, tarball: https://npm-registry.yy.com/@webassemblyjs/wast-printer/download/@webassemblyjs/wast-printer-1.12.1.tgz}
+    resolution: {integrity: sha512-+X4WAlOisVWQMikjbcvY2e0rwPsKQ9F688lksZhBcPycBBuii3O7m8FACbDMWDojpAqvjIncrG8J0XHKyQfVeA==}
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@xtuc/long': 4.2.2
     dev: false
 
   /@xtuc/ieee754@1.2.0:
-    resolution: {integrity: sha1-7vAUoxRa5Hehy8AM0eVSM23Ot5A=, tarball: https://npm-registry.yy.com/@xtuc/ieee754/download/@xtuc/ieee754-1.2.0.tgz}
+    resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
     dev: false
 
   /@xtuc/long@4.2.2:
-    resolution: {integrity: sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=, tarball: https://npm-registry.yy.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz}
+    resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
     dev: false
 
   /abab@2.0.6:
@@ -2787,7 +2790,7 @@ packages:
     dev: false
 
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
-    resolution: {integrity: sha1-UHJ2JJ1oR5fITgc074SGAzTPsaw=, tarball: https://npm-registry.yy.com/acorn-import-assertions/download/acorn-import-assertions-1.9.0.tgz}
+    resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -3419,7 +3422,7 @@ packages:
     dev: false
 
   /chrome-trace-event@1.0.3:
-    resolution: {integrity: sha1-EBXs7UdB4V0GZkqVfbv1DQQeJqw=, tarball: https://npm-registry.yy.com/chrome-trace-event/download/chrome-trace-event-1.0.3.tgz}
+    resolution: {integrity: sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==}
     engines: {node: '>=6.0'}
     dev: false
 
@@ -3852,7 +3855,7 @@ packages:
     dev: true
 
   /enhanced-resolve@5.16.1:
-    resolution: {integrity: sha1-6Lxj1RuCbW8cvAoVDstaiwxi5Wc=, tarball: https://npm-registry.yy.com/enhanced-resolve/download/enhanced-resolve-5.16.1.tgz}
+    resolution: {integrity: sha512-4U5pNsuDl0EhuZpq46M5xPslstkviJuhrdobaRDBk2Jy2KO37FDAJl4lb2KlNabxT0m4MTK2UHNrsAcphE8nyw==}
     engines: {node: '>=10.13.0'}
     dependencies:
       graceful-fs: 4.2.11
@@ -3958,7 +3961,7 @@ packages:
     dev: false
 
   /es-module-lexer@1.5.2:
-    resolution: {integrity: sha1-ALQjME8lAKxZNZzJtoRJUfNy1Jc=, tarball: https://npm-registry.yy.com/es-module-lexer/download/es-module-lexer-1.5.2.tgz}
+    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
     dev: false
 
   /es-object-atoms@1.0.0:
@@ -4401,7 +4404,7 @@ packages:
     dev: false
 
   /events@3.3.0:
-    resolution: {integrity: sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA=, tarball: https://npm-registry.yy.com/events/download/events-3.3.0.tgz}
+    resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
     dev: false
 
@@ -4577,7 +4580,7 @@ packages:
     dev: false
 
   /fsevents@2.3.3:
-    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: https://npm-registry.yy.com/fsevents/download/fsevents-2.3.3.tgz}
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -4660,7 +4663,7 @@ packages:
     dev: false
 
   /glob-to-regexp@0.4.1:
-    resolution: {integrity: sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4=, tarball: https://npm-registry.yy.com/glob-to-regexp/download/glob-to-regexp-0.4.1.tgz}
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
     dev: false
 
   /glob@10.3.14:
@@ -4796,7 +4799,7 @@ packages:
     dev: false
 
   /html-rspack-plugin@5.7.2(@rspack/core@0.6.5):
-    resolution: {integrity: sha1-x7/lQifDg4S3kP/GESfsMWHNmlk=, tarball: https://npm-registry.yy.com/html-rspack-plugin/download/html-rspack-plugin-5.7.2.tgz}
+    resolution: {integrity: sha512-uVXGYq19bcsX7Q/53VqXQjCKXw0eUMHlFGDLTaqzgj/ckverfhZQvXyA6ecFBaF9XUH16jfCTCyALYi0lJcagg==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
@@ -5754,6 +5757,22 @@ packages:
     hasBin: true
     dev: false
 
+  /jotai@2.8.0(@types/react@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-yZNMC36FdLOksOr8qga0yLf14miCJlEThlp5DeFJNnqzm2+ZG7wLcJzoOyij5K6U6Xlc5ljQqPDlJRgqW0Y18g==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@types/react': '>=17.0.0'
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@types/react': 18.3.1
+      react: 18.3.1
+    dev: false
+
   /js-tokens@4.0.0:
     resolution: {integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=, tarball: https://npm-registry.yy.com/js-tokens/download/js-tokens-4.0.0.tgz}
     dev: false
@@ -5952,7 +5971,7 @@ packages:
     dev: false
 
   /loader-runner@4.3.0:
-    resolution: {integrity: sha1-wbShY7mfYUgwNTsWdV5xSawjFOE=, tarball: https://npm-registry.yy.com/loader-runner/download/loader-runner-4.3.0.tgz}
+    resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==}
     engines: {node: '>=6.11.5'}
     dev: false
 
@@ -6140,7 +6159,7 @@ packages:
     dev: false
 
   /neo-async@2.6.2:
-    resolution: {integrity: sha1-tKr7k+OustgXTKU88WOrfXMIMF8=, tarball: https://npm-registry.yy.com/neo-async/download/neo-async-2.6.2.tgz}
+    resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
   /node-int64@0.4.0:
@@ -7644,7 +7663,7 @@ packages:
     dev: false
 
   /watchpack@2.4.1:
-    resolution: {integrity: sha1-KTCPLKwVD6jkyS+Q4OyVSp/tf/8=, tarball: https://npm-registry.yy.com/watchpack/download/watchpack-2.4.1.tgz}
+    resolution: {integrity: sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg==}
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
@@ -7700,7 +7719,7 @@ packages:
     engines: {node: '>=10.13.0'}
 
   /webpack@5.91.0:
-    resolution: {integrity: sha1-/6ksHGGNGMh48GiSu9wzc8caAdk=, tarball: https://npm-registry.yy.com/webpack/download/webpack-5.91.0.tgz}
+    resolution: {integrity: sha512-rzVwlLeBWHJbmgTC/8TvAcu5vpJNII+MelQpylD4jNERPwpBJOE2lEcko1zJX3QJeLjTTAnQxn/OJ8bjDzVQaw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
